@@ -1,3 +1,32 @@
-body{
+/*Universal selector, a style for every element in the <html> tag
+p{
+    text-align: center;
+}*/
+
+
+/*This is heading 1*/
+h1{
     color: green;
 }
+
+/*
+h2{
+    color: blue;
+}
+    
+
+.nameh1{
+    font-weight: 100;
+    font-weight: bold;
+} 
+    
+*/
+.nameh2{
+    font-weight: 150;
+}
+    
+/*
+[disabled]{
+    color: pink;
+}
+    */
