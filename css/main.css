@@ -1,32 +1,12 @@
-/*Universal selector, a style for every element in the <html> tag
-p{
-    text-align: center;
-}*/
-
-
-/*This is heading 1*/
 h1{
-    color: green;
+    color: red;
 }
 
-/*
-h2{
+#heading1{
     color: blue;
+    text-align: center;
 }
-    
-
-.nameh1{
-    font-weight: 100;
-    font-weight: bold;
-} 
-    
-*/
-.nameh2{
-    font-weight: 150;
+.heading{
+    color: green;
+    text-align: end;
 }
-    
-/*
-[disabled]{
-    color: pink;
-}
-    */

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Specificity</title>
+    </head>
+    <style>
+    h1{
+    color: red;
+    font-weight: bold;        
+    }
+    #heading1{
+        color: blue;
+        text-align: center;
+    }
+    #p{
+        font-weight: bold;
+        color: green;
+    }
+    p{
+        text-align: center;
+    }
+    [target]{
+        text-align: end;
+        color: purple;
+    }
+    .p{
+        text-align: center;
+        color: red;
+    }
+    #info{
+        color: red;
+    }
+
+ 
+    </style>
+    <body>
+       <h1  style="color: purple;"  id="heading1" class="heading">Heading</h1> 
+        <p style="color: blue;" class="p"  target id="p">Specificity</p>
+        <footer>
+            <section>
+                <p  id="info" style="text-align: left;">
+                    inline styles>ID>Class>Attribute><tag>
+
+                </p>
+            </section>
+        </footer>
+    </body>
+</html>
