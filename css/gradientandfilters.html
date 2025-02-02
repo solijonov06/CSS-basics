@@ -1,11 +1,60 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title></title>
+        <title>Working on images.Gradients and filters.</title>
         <a href="styling.html">Previous session<br><br>Styling</a><br><br>
         <a href="styling.html">Next session<br><br>Form styling part 1</a>
+        <style>
+            .gradient-box{height: 600px;
+                width: 600px;
+                background-image: linear-gradient(to bottom left, rgb(255, 0, 0),rgb(14, 126, 224), yellow);
+                margin-top: 100px;
+                text-align: center;
+                color: #ccc;
+            }
+            .radial-gradient-box{
+                width: 600px;
+                background-image: radial-gradient(circle, rgb(255, 0, 0),rgb(14, 126, 224), yellow);
+                margin-top: 100px;
+                text-align: center;
+                color: #ccc;
+                height: 600px;
+            }
+            .blur-box{
+                filter: blur(5px);
+            }
+            .brightness-box{
+                filter: brightness(0.3);
+            }
+            .contrast-box{
+                filter: contrast(0.569);
+            }
+            .grayscale-box{
+                filter: grayscale(1);
+            }
+            .huerotate-box{
+                filter: hue-rotate(100deg)
+
+            }
+            .invert-box{
+                filter: invert(100%);
+            }
+            .opacity-box{
+                filter: opacity(60%)
+
+            }
+        </style>
     </head>
     <body>
-
+        
+        <div class="gradient-box"><h1>Gradient</h1></div>
+        <div class="radial-gradient-box"><h1>Gradient</h1></div>
+        <img class="blur-box" src="portfolio/images/seoul.png">
+        <img class="brightness-box" src="portfolio/images/seoul.png">
+        <img class="contrast-box" src="portfolio/images/seoul.png">
+        <img class="grayscale-box" src="portfolio/images/seoul.png">
+        <img class="huerotate-box" src="portfolio/images/seoul.png">
+        <img class="invert-box" src="portfolio/images/seoul.png">
+        <img class="opacity-box" src="portfolio/images/seoul.png">
     </body>
 </html>
