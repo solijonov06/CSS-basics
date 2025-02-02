@@ -1,0 +1,484 @@
+/* core styles*/
+.container{
+    width: 1140px;
+    margin: 0 auto;
+  
+  }
+  
+  .to-uppercase{
+    text-transform: uppercase;
+  }
+  
+  
+  
+  .clearfix{
+    clear: both;
+  }
+  .section-subtitle{
+    letter-spacing: 2px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    color: #797979;
+    text-transform: uppercase;
+  }
+  
+  .section-title{
+    margin-top: 5px;
+    font-size: 42px;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: #05364d;
+  }
+  
+  .about-me__description:active{
+    font-size: 14px;
+    font-weight: 300;
+    color: #797979;
+    line-height: 27px;
+  }
+  
+  .button{
+    font-size: 14px;
+    font-weight: 500;
+    color: white;
+    border: none;
+    padding: 25px 40px;
+    cursor:pointer;
+    border-radius: 5px;
+    background-color: blue;
+  }
+  
+  /*Services sectionstylr*/
+  .services{
+  padding-top: 100px;
+  
+  }
+  
+  .service-card{
+    display: inline-block;
+    width: 30%;
+    background-color: #F8FAFF;
+    padding: 60px 30px;
+    margin-right: 3%;
+    text-align: center;
+    box-sizing:border-box;
+  }
+  .service-card__title{
+    color: #05364d;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+  }
+  
+  .service-card__description{
+    font-size: 14px;
+    line-height: 27px;
+    font-weight: 300;
+    color: #797979;
+  }
+  
+  .service-card__link{
+    font-size: 13px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color:#05364d;
+    text-decoration: none;
+  }
+  
+  
+  
+  body{
+    font-family: sans-serif;
+  }
+  /*main header styles*/
+  .main-header{
+    position: fixed;
+    background-color: white;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-shadow:  0px 3px 16px 0px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+  }
+  .main-header__brand{
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .main-header__brand img{
+    width: 64px;
+  }
+  .main-navigation{
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .main-navigation__item{
+    display: inline-block;
+    padding: 10px;
+  }
+  .main-navigation__item a{
+    color:rgba(0, 0, 0, .9);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 400px;
+  }
+  .main-navigation__item a:hover{
+    color: pink;
+  }
+  /*main section*/
+  .main-section{
+    padding: 100px 30px;
+  }
+  #main-section > div
+  {
+    width: 50%;
+    float: left;
+  }
+  .main-section__image{
+    text-align: right;
+  }
+  .main-section__welcome{
+    font-size: 16px;
+    font-weight: 410;
+    margin-bottom: 20px;
+    letter-spacing:2px;
+    color: #797979;
+  }
+  
+  .main-section__introduction{
+    margin-top: 20px;
+    font-size: 60px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    color:black;
+  }
+  
+  .main-section__position{
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: 300;
+    color:black;
+  }
+  
+  .main-section__social-networks a:hover i{
+    color: #a33a6c;
+  }
+  
+  
+  .main-section__social-networks a{
+    color: #03a9f4;
+    font-size: 30px;
+    display: inline-block;
+    margin-right: 30px;
+    cursor: pointer;
+  }
+  .main-section__action{
+    margin-top: 30px;
+    font-size: 14px;
+    font-weight: 500;
+    color: white;
+    border: none;
+    padding: 25px 40px;
+    cursor:pointer;
+    border-radius: 5px;
+    background-color: blue;
+  
+    
+  }
+  /*Statistics*/
+  .statistics{
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+  }
+  
+  .statistics__item{
+    background-color: #b3bbbc;
+    text-align: center;
+    padding: 10px;
+    width: 150px;
+    font-size: 16px;
+    border-radius: 5px;
+  }
+  
+  
+  .statistics__number{
+    font-size: 30px;
+    margin-bottom:5px;
+    color: #d400b4;
+  }
+  .statistics__title{
+    font-size: 30px;
+    color:  #503f57;
+    font-weight: 300;
+  }
+  /*About me sectipon*/
+  .about-me{
+    padding: 100px 0;
+  }
+  
+  .about-me>div{
+    width: 50%;
+    float:left;
+  }
+  
+  .about-me image{
+    width: 90%;
+  }
+  
+  .blur-line{
+    display: inline-block;
+    position: relative;
+    top: -2;
+    width: 80px;
+    margin-left:5px;
+    height: 4px;
+    background-color:#64214b;
+    filter: (blur)4px;
+    border-radius: 4px;
+  }
+  .about-me__action{
+    margin-top: 40px;
+  }
+  .button:hover{
+    font-size: 24px;
+    font-weight: 600;
+    border: none;
+    padding: 15px 40px;
+    cursor:pointer;
+    border-radius: 10px;
+    margin-right: 20px;
+  }
+  .service-card:hover{
+    background-color: #5f30ff;
+  }
+  
+  .service-card:hover .service-card__title,
+  .service-card:hover .service-card__description,
+  .service-card:hover .service-card__link{
+    color: #FFFFFF;
+  }
+  
+  /*My clients*/
+  .clients{
+    padding-top: 100px;
+  }
+  
+  .client-items>div{
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+  }
+  .client-item>image img{
+    width: 100%;
+  }
+  .client-item__info{
+    padding-top: 50px;
+    padding-left: 50px;
+  }
+  
+  .client-item__name{
+    font-size: 20px;
+    margin-bottom: 4px;
+  }
+  
+  .client-item__position{
+    font-size:15px;
+    font-weight: 300;
+    color: #5b6d15;
+  }
+  
+  
+  .client-item__review{
+    font-size: 15px;
+    line-height: 27px;
+    font-weight: 300;
+    color: #5b6d15;
+  }
+  .client-item__rate{
+    color: #ffd804;
+  }
+  .client-item__rate .disabled{
+    color: #aeb9be;
+  }
+  
+  
+  /*Portfolio section styles*/
+  .portfolio{
+    padding: 100px 0; 
+  }
+  
+  .portfolio-filters{
+    list-style: none;
+    margin-top: 50px;
+  }
+  .portfolio-filters li.active{
+    color: rgb(46, 46, 212);
+  }
+  
+  .portfolio-filters li{
+    padding-left: 0;
+    display: inline-block;
+    margin-right: 40px;
+    font-size: 13px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #05364d;
+    cursor: pointer;
+  }
+  
+  .portfolio-filters li:hover{
+    color: rgb(46, 46, 212);
+  }
+  
+  
+  
+  
+  .portfolio-items{
+    margin-top: 50px;
+    position: relative;
+  }
+  
+  .portfolio-item{
+    position: relative;
+    display: inline-block;
+    width: 50%;
+    cursor: pointer;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  .portfolio-item-1{
+    padding-left: 0;
+  }
+  
+  .portfolio-item-2{
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .portfolio-item-3{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+  }
+  
+  .portfolio-item__image{
+    width: 100%;
+  }
+  
+  .portfolio-item__overlay{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(19,69,230,0.9);
+    visibility: hidden;
+    z-index: 1;
+  }
+  .portfolio-item__info{
+    position: absolute;
+    bottom: 44px;
+    left: 80px;
+    color: white;
+    z-index: 1;
+    
+  
+  }
+  .portfolio-item a{
+    color: white;
+    text-decoration: none;
+  }
+  
+  .portfolio-item:hover .portfolio-item__overlay{
+    visibility: visible;
+    left: 20px;
+    right: 20px;
+    cursor: pointer;
+  }
+  
+  .statistics__item {
+    text-align: center; /* Ensure text is aligned properly */
+    padding: 10px;
+  }
+  /* Container for both sections */
+  .container {
+    display: flex;
+    flex-direction: column; /* Stack sections vertically */
+    gap: 50px; /* Space between the sections */
+    margin: 0 auto; /* Center the container */
+    padding: 20px; /* Add padding inside the container */
+  }
+  
+  /* Individual section styling */
+  .clients, .portfolio {
+    border: 1px solid #ddd; /* Optional: Add a border to separate visually */
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for better visibility */
+    background-color: #fff; /* Ensure sections have a background color */
+  }
+  
+  /* Images inside the sections */
+  .clients img, .portfolio img {
+    max-width: 100%;
+    height: auto;
+    display: block; /* Ensure images fit their containers */
+    margin: 10px 0;
+  }
+  
+  /* Ensure proper alignment */
+  .section-title, .section-subtitle {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .portfolio-filters {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .portfolio-items {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Responsive grid */
+    gap: 20px;
+  }
+  
+  .portfolio-item {
+    position: relative;
+    overflow: hidden;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+  }
+  #container_statistics {
+    display: flex; /* Arrange items horizontally */
+    justify-content: space-around; /* Add spacing between items */
+    align-items: center; /* Align items vertically in the center */
+  }
+  
+  .statistics__item {
+    text-align: center; /* Ensure text is aligned properly */
+    padding: 10px;
+  }
+  #container_statistics {
+    display: flex; 
+    justify-content: space-around; /* Or use space-between */
+    align-items: center;
+    flex-wrap: wrap; /* Allows wrapping if the screen is small */
+    text-align: center; /* Center the text */
+  }
+  
+  .statistics {
+    flex: 1; /* Makes all statistics sections take equal space */
+    min-width: 200px; /* Ensures they don’t shrink too much */
+    margin: 10px; /* Adds spacing between them */
+  }
+  
