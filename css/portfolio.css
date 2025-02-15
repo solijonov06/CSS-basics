@@ -1,4 +1,9 @@
 /* core styles*/
+body{
+  margin: 0;
+  font-family: sans-serif;
+}
+
 .container{
     width: 1140px;
     margin: 0 auto;
@@ -126,9 +131,21 @@
   .main-navigation__item a:hover{
     color: pink;
   }
+  .main_navigation_item.active a{
+    color: pink;
+  }
   /*main section*/
+  .main-banner{
+    background: url(portfolio/images/home-banner.png) no-repeat top center;
+    background-position: center;
+    background-size: cover;
+    min-height: 890px;
+    box-sizing: border-box;
+}
+  
+  
   .main-section{
-    padding: 100px 30px;
+    padding: 120px 30px;
   }
   #main-section > div
   {
@@ -458,27 +475,5 @@
     border-radius: 8px;
     background-color: #fff;
   }
-  #container_statistics {
-    display: flex; /* Arrange items horizontally */
-    justify-content: space-around; /* Add spacing between items */
-    align-items: center; /* Align items vertically in the center */
-  }
-  
-  .statistics__item {
-    text-align: center; /* Ensure text is aligned properly */
-    padding: 10px;
-  }
-  #container_statistics {
-    display: flex; 
-    justify-content: space-around; /* Or use space-between */
-    align-items: center;
-    flex-wrap: wrap; /* Allows wrapping if the screen is small */
-    text-align: center; /* Center the text */
-  }
-  
-  .statistics {
-    flex: 1; /* Makes all statistics sections take equal space */
-    min-width: 200px; /* Ensures they don’t shrink too much */
-    margin: 10px; /* Adds spacing between them */
-  }
+ 
   

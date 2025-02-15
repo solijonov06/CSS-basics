@@ -43,6 +43,38 @@
                 filter: opacity(60%)
 
             }
+            .conic-box{
+                height: 400px;
+                width: 400px;
+                background-image: conic-gradient(red 60deg,yellow 90deg,blue 180deg);
+                border-radius: 50%;
+            }
+            .conic-box2{
+                height: 1200px;
+                width: 1200px;
+                background-image: conic-gradient(red 0deg, red 90deg, yellow 90deg, yellow 180deg, green 180deg, green 270deg, blue 270deg);
+                border-radius: 50%;
+            }
+            .conic-box3{
+                height: 1200px;
+                width: 1200px;
+                background-image: conic-gradient(from 90deg, red, yellow, blue);
+                border-radius: 50%;
+            }
+            .conic-box4{
+                background-image: repeating-conic-gradient(red 15%,yellow 20% );
+                border-radius: 50%;
+                height: 1200px;
+                width: 1200px;
+            }
+            .conic-box5{
+                background-image: repeating-conic-gradient(red 0deg, red 10deg, yellow 10deg, yellow 20deg, blue 20deg, blue 30deg);
+                height: 1200px;
+                width: 1200px;
+                border-radius: 50%;
+            }
+
+         
         </style>
     </head>
     <body>
@@ -56,5 +88,10 @@
         <img class="huerotate-box" src="portfolio/images/seoul.png">
         <img class="invert-box" src="portfolio/images/seoul.png">
         <img class="opacity-box" src="portfolio/images/seoul.png">
+        <div class="conic-box">Conic box</div>
+        <div class="conic-box2">Pie</div>
+        <div class="conic-box3">Pie2</div>
+        <div class="conic-box4">Pie3</div>
+        <div class="conic-box5">Pie4</div>
     </body>
 </html>

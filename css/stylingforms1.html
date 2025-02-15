@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Styling forms part 1</title>
+        <style>
+            
+            
+            .container{
+                padding: 30px;
+            }
+            /*
+            input,select,textarea{
+                box-sizing: border-box;
+                width: 100%;
+                border: 1px solid #69247C;
+                padding: 10px;
+                margin-top: 5px;
+                margin-bottom: 20px;
+                border-radius:4px;
+            }
+        
+            .button{
+                background-color: #497D74;
+                color: azure;
+                border-radius: 5px;
+                border: none;
+                cursor: pointer;
+                width: 100px;
+                padding: 10PX 20PX;
+            }
+            .button:hover{
+            background-color: #347928;
+            transition: all 0.2s ease 0.2s;
+            }
+            */
+
+          /*
+            .form-control{
+                display: block;
+                position: relative;
+                padding-left: 40px;
+                margin-bottom: 15px;
+                cursor: pointer;
+                font-size: 24px;
+
+            }
+            .custom-radio{
+                position: absolute;
+                
+                height: 24px;
+                width: 24px;
+                left: 0;
+                top: 0;
+                border-radius: 50%;
+                background-color: aquamarine;
+            }
+            .form-control:hover input~.custom-radio{
+                background-color: rgb(48, 80, 27);
+            }
+            .form-control input:checked ~ .custom-radio{
+                background-color: rgb(9, 9, 87);
+            }
+
+            .custom-radio:after{
+                top: 8px;
+                left: 8px;
+                width: 8px;
+                height: 8px;
+                border-radius: 50%;
+                background: white;
+                content: "";
+                position: absolute;
+                display: none;
+            }
+            .form-control input:checked~.custom-radio:after{
+                display: block;
+            }
+            .form-control input{
+                position: absolute;
+                opacity: 0;
+                cursor: pointer;
+            }
+            */
+
+            .form-control{
+                display: block;
+                position: relative;
+                padding-left: 40px;
+                margin-bottom: 15px;
+                cursor: pointer;
+                font-size: 24px;}
+
+                .form-control input{
+                position: absolute;
+                opacity: 0;
+                cursor: pointer;
+            }
+
+            .custom-checkbox{
+                position: absolute;   
+                height: 24px;
+                width: 24px;
+                left: 0;
+                top: 0;
+                background-color: rgb(161, 163, 163);
+            }
+
+            .form-control input:checked ~ .custom-checkbox{
+                background-color: rgb(9, 9, 87);
+            }
+            .form-control:hover input~.custom-checkbox{
+                background-color: rgb(43, 44, 42);
+            }
+            .custom-checkbox:after{
+                top: 4px;
+                left: 8px;
+                width: 5px;
+                height: 10px;
+                border: solid white;
+                content: "";
+                border-width: 0 3px 3px 0;
+                position: absolute;               
+                transform: rotate(45deg);
+              
+            }
+              .form-control input:checked~ .custom-checkbox:after{
+              display: block;
+            }
+          
+        </style>
+    </head>
+    <body>
+       <div class="container">
+       <!--
+         <form action="/server.php" method="get">
+            <label for="firstname">Name</label>
+            <input type="text" id="firstname" name="firstname" placeholder="Your name">
+
+            <label for="surname" >Surname</label>
+            <input type="text" id="surname" name="surname" placeholder="Your surname">
+
+            <label for="country">Country</label>
+            <select id="country" name="country">
+                <option value="uzbekistan">O'zbekistan</option>
+                <option value="russia">Russia</option>
+                <option value="usa">The USA</option>
+                <option value="korea">South Korea</option>
+            </select>
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" placeholder="your message"></textarea>
+
+            <button type="submit" class="button">Sent</button>
+
+        </form>
+       <h1>Radio buttons with styles</h1>
+            <label class="form-control">Radio1
+                    <input type="radio" checked="checked" name=radio- value=radio-1>
+                    <span class="custom-radio"></span>
+            </label>
+            <label class="form-control">Radio2
+                <input type="radio" checked="checked" name=radio- value=radio-2>
+                <span class="custom-radio"></span>
+            </label>
+
+            <label class="form-control">Radio3
+                <input type="radio" checked="checked" name=radio- value=radio-3>
+                <span class="custom-radio"></span>
+            </label>
+             -->
+             <h1>Radio buttons with styles</h1>
+             <label class="form-control">checkbox1
+                     <input type="checkbox" checked="checked" name="checkbox" value="checkbox1">
+                     <span class="custom-checkbox"></span>
+             </label>
+             <label class="form-control">checkbox2
+                 <input type="checkbox" checked="checked" name="checkbox" value="checkbox2">
+                 <span class="custom-checkbox"></span>
+             </label>
+ 
+             <label class="form-control">checkbox3
+                 <input type="checkbox" checked="checked" name="checkbox" value="checkbox3">
+                 <span class="custom-checkbox"></span>
+             </label>
+
+
+       </div>
+    </body>
+</html>
