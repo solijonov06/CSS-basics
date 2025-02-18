@@ -11,26 +11,26 @@ body{
 .section-subtitle{
     letter-spacing: 2px;
     font-weight: 500;
-    margin-bottom:10px;
+    margin-bottom: 0.625rem;/* 10/16=0.625*/
     color: #797979;
     text-transform: uppercase;
 }
 
 .section-title{
-    margin-top: 5px;
-    font-size: 42px;
+    margin-top: 0.32rem;/* 5/16=0.32*/
+    font-size: 2.62rem;/* 42/16=2.62*/
     font-weight: 700;
     text-transform: capitalize;
     color:  #212529;
 }
 .button{
-    margin-top: 30px;
+    margin-top: 1.87rem;/*30/16=1.87*/
     border: none;
     background-size: 200% auto;
     color: rgb(255, 255, 255);
     font-weight: 500;
-    font-size: 14xp;
-    padding: 20px 40px;
+    font-size: 0.87rem;/*14/16=0.87*/
+    padding: 1.26rem 2.5rem;/*1)20/16=1.26; 2) 40/16=2.5*/
     cursor:pointer;
     border-radius: 5px;
     background: linear-gradient(to right, #1345e6 0%, #ed239f 51%, #1345e6 100%);
@@ -41,14 +41,14 @@ body{
 
 .blur-line{
     display: inline-block;
-    margin-left: 5px;
-    width: 80px;
+    margin-left: 0.32rem;/* 5/16=0.32*/
+    width: 5rem;/* 80/16=5*/
     height: 4px;
     background-color: rgba(237, 35, 159, 0.6);
     filter: blur(4px);
     border-radius: none;
     position:relative;
-    top: -2;
+    top: -2px;
 }
 
 .to-uppercase{
@@ -88,14 +88,14 @@ body{
 
 .main-navigation__item{
     display: inline-block;
-    padding: 10px;
+    padding: 0.625rem;/* 10/16=0.64*/
 
 }
 .main-navigation a{
     color:  #05364d;
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 12px;
+    font-size: 0.75rem;/* 12/16=0.75*/
     font-weight: 500;
 }
 

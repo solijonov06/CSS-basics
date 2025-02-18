@@ -1,17 +1,17 @@
 .contact{
-    padding: 100px 20px;
+    padding: 6.25rem 1.25rem;
 }
 
 textarea,input{
  width: 100%;   
- padding: 14px;
- margin-bottom: 10px;
- margin-top: 10px;
+ padding: 0.87rem;
+ margin-bottom: 0.625rem;
+ margin-top: 0.625rem;
  border: 1px solid rgb(210, 210, 233);
- border-radius: 5px;
+ border-radius: 0.312rem;
  
- padding-left: 18px;
- font-size: 15px;
+ padding-left: 1.125rem;
+ font-size: 0.93rem;
  background: transparent;
 
 }
@@ -31,13 +31,13 @@ input:focus{
 }
 
 .contact__firstname{
-    padding-right: 20px;
+    padding-right: 1.15rem;
 }
 
 .contact__email{
-    padding-left:20px;
+    padding-left:1.25rem;
 }
 
 .contact__send{
-    margin-top: 30px;
+    margin-top: 1.875rem;
 }
