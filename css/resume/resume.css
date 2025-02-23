@@ -437,7 +437,80 @@
         margin-right: 1.25rem;
        
     }
+    @media only screen and (max-width: 991px)
+    {
+        /*main section*/
+        .main-section__image{
+            display: none;
+        }
 
+        /*statistics*/
+        .statistics{
+            padding-top: 1rem;
+            text-align: center;
+        }
+
+          /*About me*/
+          .about-me{
+            padding: 2rem 0;
+        }
+
+        .about-me >div{
+            width: 100%;
+            margin-right: 0;
+        }
+        .about-me__image {
+            display: none;
+        }
+        /*services*/
+        .services{
+            padding: 1.5rem 0;
+    
+        }
+        .service-card{
+            width: 45%;
+            margin-bottom: 1.2rem;
+        }
+          /*Clients*/
+          .clients{
+            padding: 1.5rem 0;
+        }
+
+        .client-item__image{
+            width: 100%;
+            margin: 0;
+            padding: 0;
+            height: auto;
+            max-width: 100%;
+        }
+       
+        
+        .client-item > div{
+            width: 100%;
+            float: none;
+        }
+
+        .blog{
+            padding: 1.5rem 0;
+        }
+    
+        .blog-item{
+            width: 45%;
+            margin-bottom: 1.2rem;
+        }
+           /*partners*/
+    .partners{
+        padding: 1.5rem 0;
+
+    }
+    .partner{
+        display: block;
+        padding: 0;
+        text-align: center;
+        margin-bottom: 1.2rem;
+    }
+    
+    }
     @media only screen and (max-width: 767px)
     {
         
@@ -463,47 +536,18 @@
             margin-right: 0;
             box-sizing: border-box;
         }
-        /*About me*/
-        .about-me{
-            padding: 2rem 0;
-        }
-
-        .about-me >div{
-            width: 100%;
-            margin-right: 0;
-        }
-        .about-me__image {
-            display: none;
-        }
+      
 
         /*services*/
-    .services{
-        padding: 1.5rem 0;
-
-    }
-
+   
         .service-card{
             width: 100%;
             margin-right: 0;
             margin-bottom: 1.2rem;
         }
-        /*Clients*/
-        .clients{
-            padding: 1.5rem 0;
-        }
-
-        .client-item__image{
-            width: 100%;
-            margin: 0;
-            padding: 0;
-            height: auto;
-            max-width: 100%;
-        }
-        .client-item >div{
-            width: 100%;
-            float: none;
+      
            
-        }
+        
      /*portfolio*/
      .portfolio{
         padding: 1.5rem 0;
@@ -518,25 +562,12 @@
     }
 
     /*Blog*/
-    .blog{
-        padding: 1.5rem 0;
-    }
-
+  
     .blog-item{
         width: 100%;
         margin-right: 0;
         margin-bottom: 1.2rem;
     }
 
-    /*partners*/
-    .partners{
-        padding: 1.5rem 0;
-
-    }
-    .partner{
-        display: block;
-        
-        text-align: center;
-        margin-bottom: 1.2rem;
-    }
+ 
 }

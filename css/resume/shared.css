@@ -164,18 +164,27 @@ body{
 .footer-text{
     color:  #797979;
 }
+@media only screen and (max-width:991px){
+   .container{
+    width: 90%;
+   }
+   
+    /*navigation*/
+    .main-navigation{
+        display: none;
+    }
 
+  /*footer*/
+  .footer-nav{
+    display: none;
+}
+
+}
 @media only screen and (max-width:767px){
     .container{
         width:96%;
     }
 
-    /*navigation*/
-    .main-navigation{
-        display: none;
-    }
-    /*footer*/
-    .footer-nav{
-        display: none;
-    }
+  
+  
 }
