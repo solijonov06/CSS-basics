@@ -169,8 +169,13 @@ body{
     .container{
         width:96%;
     }
+
+    /*navigation*/
     .main-navigation{
         display: none;
     }
-    
+    /*footer*/
+    .footer-nav{
+        display: none;
+    }
 }
