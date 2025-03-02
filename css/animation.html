@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Animation</title>
+        <link rel="icon" href="animation.png" type="image/jpg">
+        <link rel="stylesheet" href="/CSS/CSS-basics/css/main.css">
+        
+        <style>
+          @keyframes box-mover{
+            from{
+                left: 0;
+                background-color: blue;
+                width: 200px;
+            }
+            to{
+                left: 500px;
+                background-color: green;
+                width: 400px;
+
+            }
+            
+          }
+          .box{
+            width: 200px;
+            height: 200px;
+            position: relative;
+            background-color: red;
+            color: white;
+            /*animation-name: box-mover;
+            animation-duration: 2s;
+         animation-timing-function: linear;*/
+         animation: box-mover 4s linear 2s 2 backwards alternate running ;
+          }
+
+          .box:hover{
+            animation-play-state: paused;
+          }
+        </style>
+    </head>
+    <body>
+        <div class=parent-box>
+            <div class="child-box">
+                <div class="box">
+                an element does not possess font-size
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
