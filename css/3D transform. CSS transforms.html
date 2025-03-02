@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSS advanced. 3D transform.</title>
+        <link rel="icon" href="3D transform.jpg" type="image/jpg">
+        <link rel="stylesheet" href="/CSS/CSS-basics/css/main.css">
+        <style>
+          /*.box{
+            width: 15rem;
+            margin: 10rem 10rem;
+            height: 20rem;
+            background-color: blue;
+            transform: rotate(45deg);
+            
+
+          }
+          .parent-box{
+            margin: 10rem;
+            border: 5px solid blue;
+          }
+
+          .box2{
+            height: 100px;
+            background-color: green;
+            transform: rotate(45deg);
+            transform-origin: top left;
+          }
+
+          .box3{
+            width: 15rem;
+            margin: 10rem 10rem;
+            height: 20rem;
+            background-color: blue;
+            transform: translate(20px, 40px);
+
+          }
+          .box4{
+            width: 15rem;
+            margin: 10rem 10rem;
+            height: 20rem;
+            background-color: blue;
+            transform: scale(2,0.8);
+          }*/
+          .box5{
+            border: 5px solid red;
+            width: 35rem;
+            margin: 10rem 10rem;
+            height: 40rem;
+            background-color: blue;
+            transform-origin: left top;
+            transform:  scale3d(2,1,5);
+          }
+        </style>
+    </head>
+    <body>
+        <div class="box">turned to 45 degree box</div>
+        <div class="parent-box">
+          <div class="box2">
+            turned to 45 degree box with transform origin by top right relatively
+          </div>
+        </div>
+        <div class="box3">20px up, 40 px to right</div>
+        <div class="box4">A scaled elemenr</div>
+        <div class="box5">A scaled elemenr</div>
+    </body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSS units.Em</title>
+        <style>
+         .box{
+            width: 15rem;
+            height: 15rem;
+            background-color: red;
+            transition: width 2s;
+         }
+         .box:hover{
+            width: 400px;
+            background-color: green;
+         }
+         .ease {  
+transition-timing-function: ease;  
+}  
+.linear {  
+transition-timing-function: linear;  
+}  
+.ease-in {  
+transition-timing-function: ease-in;  
+}  
+.ease-out {  
+transition-timing-function: ease-out;  
+}  
+I  
+.ease-in-out {  
+transition-timing-function: ease-in-out;  
+}  
+.cubic-bezier {  
+transition-timing-function: cubic-bezier (0.25, 0.1, 0.19, 1.46);  
+}
+        </style>
+    </head>
+    <body>
+        <div class="box ease">
+           ease
+        </div>
+        <div class="box linear">l</div>
+        <div class="box ease-in">in</div>
+        <div class="box ease-out">out</div>
+        <div class="box ease-in-out">in-out</div>
+        <div class="box cubic-bezier">buzier</div>
+    </body>
+</html>
