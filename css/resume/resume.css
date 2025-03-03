@@ -2,7 +2,7 @@
 
 /*main section*/
 .main-banner{
-    background: url(../portfolio/images/home-banner.png) no-repeat top center;
+    background: url(../CSS/CSS-basics/css/home-banner.png) no-repeat top center;
     background-position: center;
     background-size: cover;
     min-height: 890px;

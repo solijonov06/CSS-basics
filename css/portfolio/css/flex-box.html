@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSS advanced. 2D transform.</title>
+        <link rel="icon" href="flex-box.jpg" type="image/jpg">
+        <link rel="stylesheet" href="main.css">
+        <style>
+    body{
+      font-family:  sans-serif; ;
+    }
+    .flex-container{
+    display: flex;
+    padding: 20px;
+    background-color:#025955;
+    border-radius: 10px;
+   
+    align-content: space-evenly;
+    flex-direction: column;
+  
+    }
+    .flex-item {
+    padding: 60px 15px;
+    background-color: #FDE8CD;
+    font-weight: bold;
+    margin: 10px;
+    border-radius: 10px;
+    
+    
+    }
+    .flex-basis-300{
+        flex-basis: 300px;
+    }
+    
+</style>
+    </head>
+    <body>
+       <div class="flex-container">
+          <div class="flex-item">Flex item 1</div>
+          <div class="flex-item flex-basis-300">Flex item 2</div>
+          <div class="flex-item">Flex item 3</div>
+
+       </div>
+    </body>
+</html>
